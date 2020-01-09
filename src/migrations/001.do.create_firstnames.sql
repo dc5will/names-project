@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS firstnames(
+  id SERIAL PRIMARY KEY,
+  firstname TEXT NOT NULL UNIQUE,
+)
