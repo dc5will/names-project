@@ -1,5 +1,4 @@
-'use strict';
-const raw_firstNames = [
+const raw_firstNames = JSON.stringify([
 Emma, 
 Olivia,
 Noah,
@@ -32952,6 +32951,6 @@ Zyking,
 Zykir,
 Zyrus,
 Zyus,
-]
+]);
 
-
+// console.log(raw_firstNames);
